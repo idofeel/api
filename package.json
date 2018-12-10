@@ -1,0 +1,22 @@
+{
+  "name": "dofeel",
+  "version": "1.0.0",
+  "description": "大合集",
+  "main": "entry.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
+  },
+  "scripts": {
+    "start": "forever start -w index.js",
+    "stop": "forever stopall",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dofeel",
+  "license": "ISC"
+}
